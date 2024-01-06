@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*上標*/
+header {
+    background-color: black;
+    color: white;
+    height:80px;
+    width:100%;
+    line-height: 80px;
+    position: fixed; /* fixed 下滑上邊不會不見*/
+}
+
+/*上標 - 副標*/
+header ul {
+    position:absolute;
+    right:5vw;
+    top:0;
+    line-height:80px;
+}
+header li {
+    display:inline;
+    margin-right:4vw;    
+}
+header a {
+    color:white;
+    text-decoration: none;
+}
+
+/*中間段*/
+
+.content1 {
+    background-color: white;
+    color:black;
+    height:95vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+} 
+
+
+/*信箱設定*/
+.newsletter {
+    background-color:black;
+    color:white;
+    padding:60px 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*下標*/
+footer {
+    background-color:#000000;
+    color:#B7B7B7;
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
